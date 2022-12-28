@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    background: linear-gradient(90deg, rgba(145, 52, 208, 1) 0%, rgba(5, 204, 88, 1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: sans-serif;
+}
+
+.wrapper{
+    width: 550px;
+    height: 580px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.box{
+    background-color: #00000085;
+    width: 250px;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-color, .body-bg-color{
+    margin-right: 50px;
+}
+
+.body-bg-color, .bg-color, .font{
+    margin-top: 50px;
+}
+
+.box-wrapper{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 170px;
+    height: 60px;
+}
